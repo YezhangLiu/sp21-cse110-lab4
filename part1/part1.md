@@ -45,6 +45,8 @@
 
 15. `==` only compares value, `===` compares both value and type. 
 16. part1b-question16.js
-17. first, `[1,2,3]` and `doSomething` are passed into modifyArray(array, callback). Then, an empty const newArr is created. The for loop iterates through `[1,2,3]`, and push each element that is returned from `doSomething` to `newArr`. `doSomething` just simply multiply each element by 2. Therefore, after the for loop, newArr should contain `[2,4,6]`. Finally, `newArr` is returned. 
+17. `[2,4,6]`. First, `[1,2,3]` and `doSomething` are passed into modifyArray(array, callback). Then, an empty const newArr is created. The for loop iterates through `[1,2,3]`, and push each element that is returned from `doSomething` to `newArr`. `doSomething` just simply multiply each element by 2. Therefore, after the for loop, `newArr` should contain `[2,4,6]`. Finally, `newArr` is returned. 
+18. part1b-question18.js
+19. 1  4  3  2
     
  
