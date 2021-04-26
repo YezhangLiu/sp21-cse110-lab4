@@ -34,7 +34,7 @@ Part 1b
     - F: `0`    since both `false` and `null` map to `0`, and 0 + 0 = 0.
     - G: `3undefined`   same reason as D.
     - H: `NaN`  since both `'3'` and `undefined` are not numbers.
-When comparing a string with a number, JavaScript will convert the string to a number when doing the comparison. An empty string converts to 0. A non-numeric string converts to NaN which is always false.
+
 14. 
     - A: `true`     since `'2'` maps to 2, and 2 > 1
     - B: `false`    comparing their first index, 2 < 1.
@@ -43,6 +43,7 @@ When comparing a string with a number, JavaScript will convert the string to a n
     - E: `false`    true maps to 1, and 1 != 2.
     - F: `true`     Boolean(2) maps to true since 2 != 0. Therefore, true === true.
 
-15. f
+15. `==` only compares value, `===` compares both value and type. 
+16. part1b-question16.js
     
  
