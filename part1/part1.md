@@ -1,4 +1,4 @@
-Part 1a
+##Part 1a
 1.  values added: 20
 2.  final result: 20
 3. values added: 20
@@ -6,7 +6,7 @@ Part 1a
 5. error. line 7 tries to modify a constant variable.
 6. error. line 7 tries to modify a constant variable.
   
-Part 1b
+##Part 1b
 1. It will print the value of `i` after the for loop to console, which is 3. 
 2. It will print the value of `discountedPrice` after the for loop to console, which is 150. 
 3. It will print the value of `finalPrice` after the for loop to console, which is also 150. 
@@ -45,5 +45,6 @@ Part 1b
 
 15. `==` only compares value, `===` compares both value and type. 
 16. part1b-question16.js
+17. first, `[1,2,3]` and `doSomething` are passed into modifyArray(array, callback). Then, an empty const newArr is created. The for loop iterates through `[1,2,3]`, and push each element that is returned from `doSomething` to `newArr`. `doSomething` just simply multiply each element by 2. Therefore, after the for loop, newArr should contain `[2,4,6]`. Finally, `newArr` is returned. 
     
  
